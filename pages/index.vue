@@ -1,8 +1,5 @@
 <template>
   <div>
-    <header>
-      <Navbar />
-    </header>
     <h2>Welcome to Home!</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit alias et quam esse nisi ad saepe at natus aspernatur laborum.</p>
   </div>

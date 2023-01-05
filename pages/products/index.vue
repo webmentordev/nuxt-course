@@ -1,15 +1,14 @@
 <template>
     <div>
-        <header>
-          <Navbar />
-        </header>
-      <h2>Products Page</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit alias et quam esse nisi ad saepe at natus aspernatur laborum.</p>
+        <h2>Products Page</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit alias et quam esse nisi ad saepe at natus aspernatur laborum.</p>
     </div>
   </template>
   
   <script setup>
-  
+    definePageMeta({
+        layout: 'products'
+    });
   </script>
   
   <style scoped>
