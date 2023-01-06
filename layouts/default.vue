@@ -1,15 +1,15 @@
 <template>
-    <nav>
-        <NuxtLink to="/">Nuxt Course</NuxtLink>
-        <ul>
+    <header class="shadow-sm bg-white">
+        <nav class="container mx-auto p-4 flex justify-between">
+        <NuxtLink to="/" class="font-bold">Nuxt Course</NuxtLink>
+        <ul class="flex gap-4 font-semibold">
             <li><NuxtLink to="/">Home</NuxtLink></li>
             <li><NuxtLink to="/about">About</NuxtLink></li>
-            <li><NuxtLink to="/products">Products</NuxtLink></li>
-            <li><NuxtLink to="/products/1">Products 1</NuxtLink></li>
-            <li><NuxtLink to="/products/2">Products 2</NuxtLink></li>
+            <li><NuxtLink to="/products" class="btn">Products</NuxtLink></li>
         </ul>
     </nav>
-    <div>
+    </header>
+    <div class="container max-auto p-4">
         <slot />
     </div>
 </template>
