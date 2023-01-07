@@ -1,5 +1,9 @@
 <template>
     <div>
+        <Head>
+            <Title>Nuxt JS | {{product.title}}</Title>
+            <Meta name="description" :content="`This is about ${product.title}`" />
+        </Head>
         <ProductDetails :product="product" />
     </div>
 </template>
