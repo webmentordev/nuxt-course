@@ -14,7 +14,9 @@
     //         age: 25
     //     }
     // });
-    const { data } = await useFetch("/api/server");
+    // const { data } = await useFetch("/api/server");
+
+    const { data } = await useFetch("/api/currency/GBP");
 
   </script>
   
